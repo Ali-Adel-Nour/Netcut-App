@@ -1,0 +1,21 @@
+{
+  "name": "net-cut",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "dependencies": {
+    "arp-a": "^0.5.2",
+    "child_process": "^1.0.2",
+    "default-gateway": "^7.2.2",
+    "dotenv": "^16.4.7",
+    "express": "^4.18.2",
+    "inquirer": "^8.2.6",
+    "net-cut": "file:",
+    "node-arp": "^1.0.6",
+    "raw-socket": "^1.8.1",
+    "winston": "^3.17.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}

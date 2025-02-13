@@ -1,0 +1,19 @@
+# Logs
+*.log
+error.log
+combined.log
+logs/
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+
+# Build output
+dist/
+build/
