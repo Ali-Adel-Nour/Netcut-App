@@ -9,7 +9,7 @@ const execAsync = promisify(exec);
 class NetworkUtils {
     static async scanNetwork() {
         try {
-            const { stdout } = await execAsync('arp -a');
+            const { stdout } = await execAsync('chcp 437 && arp -a');
 
             if (!stdout) {
                 logger.warn('No ARP data returned');
